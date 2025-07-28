@@ -1,0 +1,13 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore crash logs
+crash.log
+
+# Ignore sensitive files
+*.tfvars
+
+# Local .terraform folder with plugins (this caused your issue)
+.terraform/

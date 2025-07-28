@@ -11,3 +11,4 @@ crash.log
 
 # Local .terraform folder with plugins (this caused your issue)
 .terraform/
+"*.tfstate*" 
